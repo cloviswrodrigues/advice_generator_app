@@ -65,6 +65,12 @@ body {
     border-radius: 50%;
     position: absolute;
     bottom: -34px;
+    transition: box-shadow .2s;
+}
+
+.container .icon-dice:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 40px var(--color-neon-green)
 }
 
 .footer {
